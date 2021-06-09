@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+class myclass
+{
+    public:
+    int num;
+    string str;
+};
+int main()
+{
+    myclass myobj;
+    myobj.num=12;
+    myobj.str="spandana";
+    cout<<myobj.num<<endl;
+    cout<<myobj.str;
+}
